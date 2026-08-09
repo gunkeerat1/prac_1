@@ -49,6 +49,7 @@ Download the `.csv` files and use `readr::read_csv()` to read each dataset into 
 
 ```{r}
 #| label: read-data
+#readr::read_csv
 
 # pixar_films <- read_csv("data/pixar-films.csv")
 # public_response <- read_csv("data/pixar-films-response.csv")
@@ -60,6 +61,7 @@ Inspect each dataset. What data is missing? Is the missingness coded uniformly? 
 
 ```{r}
 #| label: inspect-data
+
 
 ```
 
